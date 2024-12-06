@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/*Estilos para el titulo*/
+h1 {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/*Estilos del valor del conetenedor*/
+h2 {
+  font-size: 48px;
+  color: #007bff;
+  margin: 20px;
+}
+
+/*Estilos para los botones*/
+.boton {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #0056b3;
+}
