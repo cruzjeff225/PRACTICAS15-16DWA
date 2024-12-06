@@ -1,0 +1,61 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Contenedor principal */
+.tabs-container {
+    width: 80%;
+    max-width: 600px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de pestañas */
+.tabs {
+    display: flex;
+    background: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+}
+
+.tab {
+    flex: 1;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    background: #f1f1f1;
+    border: none;
+    outline: none;
+    transition: background 0.3s ease;
+    font-weight: bold;
+}
+
+.tab:hover {
+    background: #e2e2e2;
+}
+
+.tab.active {
+    background: #fff;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+}
+
+/* Contenido de las pestañas */
+.tab-content .content {
+    display: none;
+    padding: 20px;
+}
+
+.tab-content .content.active {
+    display: block;
+}
